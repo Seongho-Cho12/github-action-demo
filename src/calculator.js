@@ -3,6 +3,8 @@
  * CI/CD 실습을 위한 예제 코드입니다.
  */
 
+// 간단한 변경사항
+
 function add(a, b) {
   if (typeof a !== 'number' || typeof b !== 'number') {
     throw new TypeError('입력값은 숫자여야 합니다.');
